@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <title>TODO List</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+    <div class="drop-shadow-xl container lg:px-64 pt-10 mx-auto font-sans text-sm font-medium text-indigo-700">
+        <div class="grid grid-cols-6 gap-2 mb-5">
+            <div class="col-span-3 rounded-lg bg-gray-200 border-2 border-indigo-500/100 py-2">
+                <label for="first-name" class="label-input block ml-3">
+                    Nombre de la Tarea
+                    <input type="text" id="texto" class="border rounded-lg ml-1 lg:w-48 xl:w-96 border-2 border-indigo-500/100 pl-2">
+                    <div class="control_indicator"></div>
+                </label>
+            </div>
+            <button class="border-2 border-indigo-500/100 rounded-lg col-span-1 bg-gray-200 font-sans text-sm font-medium" onclick="crearTareas()">+</button>
+            <button class="border-2 border-indigo-500/100 rounded-lg col-span-2 bg-gray-200 font-sans text-sm font-medium" onclick="mostrarTareaMasRapida()">Tarea mas Rapida</button>
+        </div>
+        
+        <div class="" id="tareasEnProceso"></div>
+        <div id="tareasMasRapida"></div>
+    </div>
+    
+    
+    <script src="https://kit.fontawesome.com/43a5637531.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
